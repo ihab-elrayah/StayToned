@@ -23,9 +23,11 @@ function FrontPage () {
               <p>
                 <span className="bolded">Gym Locator:</span> With FitFinder's Gym Locator, discovering gyms in your area has never been easier. Simply enter your location, and our tool instantly identifies the best gyms around, complete with details like amenities, hours, and user reviews. Whether you're traveling or looking for a new fitness spot, Gym Locator helps you find the perfect place to work out.
               </p><br/>
+              link
               <p>
                 <span className="bolded">AI-Powered Custom Workouts:</span> FitFinder's AI Assistant Toner crafts workouts tailored to your fitness level, goals, and preferences. Just answer a few simple questions, and Toner designs a personalized routine to help you reach your goals. Whether you're into strength training, yoga, or high-intensity cardio, Toner adapts to your needs and keeps your workouts fresh and engaging.
               </p>
+              link
           </div>
           <div class="panel image-panel">
               <img src={smiling} alt="Example Image" />

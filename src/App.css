@@ -53,9 +53,12 @@
 
 .title {
   font-size: 50px;
+  text-shadow: 0px 0px 10px rgba(255, 255, 0, 0.8); /* Glow with yellow color and 10px blur */
 }
 
 .subtitle {
+  text-shadow: 0px 0px 10px rgba(255, 255, 0, 0.8); /* Glow with yellow color and 10px blur */
+
   font-size: 20px;
   text-align: center;
 }
