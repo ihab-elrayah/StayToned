@@ -2,36 +2,134 @@
   position: fixed;
   display: flex;
   justify-content: center;
-  bottom: 20px;
+  bottom: 40px;
   width: 100%;
-  left: -40px;
+  /* left: -40px; */
 }
 
 .navbar-span {
   display: flex;
-  gap: 10px;
-  justify-content: space-evenly;
+  gap: 100px;
+  justify-content: center;
   width: 100%;
 }
 
 .navbar-span .navbar-element {
-  text-align: center;
+  /* text-align: center;
   border-radius: 10px;
-  outline: 3px solid green;
-  padding: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
+  outline: 2px solid green;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
   font-size: 20px;
   text-decoration: none;
   font-weight: bold;
+  color: black; */
+
+  outline: 2px solid #00dfdf;
   color: black;
+  background-color: white; /* Primary background color */
+  border: none; /* No border */
+  padding: 12px 24px; /* Padding for the button */
+  text-align: center; /* Center text */
+  text-decoration: none; /* No underline on text */
+  display: inline-block; /* Allows the button to be displayed inline */
+  font-size: 16px; /* Text font size */
+  font-weight: bold; /* Make the text bold */
+  border-radius: 8px; /* Rounds the corners */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
 }
 
 .navbar-container .navbar-element:hover{
-  background-color: lightslategray;
+  background-color: #00eded; /* Primary background color */
+  /* transform: scale(1.05); Slightly increase the size on hover */
 }
 
 .chatbot {
   padding: 10px;
   width: 20%;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.subtitle {
+  font-size: 20px;
+  text-align: center;
+}
+
+.titleWrapper {
+  position: relative;
+  padding-top: 25vh;
+}
+
+i {
+  margin-right: 10px;
+}
+
+.frontpage {
+  width: 100%;
+  height: 80vh;
+  display: table;
+  background-color: #00f8f8;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.container {
+  display: flex; /* Use flexbox to align items side-by-side */
+  justify-content: center; /* Distribute space between panels */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #00ecec; */
+}
+
+.panel {
+  flex: 0.35; /* Allow each panel to take an equal share of space */
+  margin: 10px; /* Add spacing between the panels */
+  border-radius: 8px; /* Rounded corners for a smoother look */
+}
+
+.text-panel {
+  padding: 20px; /* Add padding to the text panel */
+  background-color: #f9f9f9; /* A light background for the text panel */
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 100px;
+}
+
+.bolded {
+  font-weight: bold;
+}
+
+.image-panel {
+  padding: 20px; /* Add padding to the image panel for consistency */
+  display: flex; /* Flexbox to vertically center content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; 
+  overflow: hidden;
+  border-radius: 8px; /* Apply the same corner rounding to the image */
+}
+
+.image-panel img {
+  height: 100%; /* Maintain the aspect ratio */
+}
+
+.spacer {
+  height: 100px;
+}
+
+.arm {
+  width: 125px;
+  position: relative;
+  top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
