@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviews Section</title>
+  <link rel="stylesheet" href="reviews.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Customer Reviews</h1>
+    <div id="reviews-container">
+      <!-- Reviews will be dynamically added here -->
+    </div>
+    <h2>Add Your Review</h2>
+    <form id="review-form">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <div>
+        <label for="review">Review:</label>
+        <textarea id="review" name="review" rows="4" required></textarea>
+      </div>
+      <button type="submit">Submit Review</button>
+    </form>
+  </div>
+
+  <script src="reviews.js" defer></script>
+</body>
+</html>
