@@ -7,7 +7,6 @@ import Workout from "./Workout.js";
 import Helmet from "react-helmet";
 import FindGyms from "./FindGyms.js";
 import Map from "./Map.js";
-import local from "./local.js";
 
 function Root () {
   return (
