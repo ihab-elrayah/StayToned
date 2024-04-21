@@ -1,10 +1,13 @@
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Redirect } from "react-router-dom";
 import Reviews from "./Reviews.js";
 import FrontPage from "./FrontPage.js";
 import Layout from "./Layout.js";
 import Workout from "./Workout.js";
-import Helmet from "react-helmet"
+import Helmet from "react-helmet";
+import FindGyms from "./FindGyms.js";
+import Map from "./Map.js";
+import local from "./local.js";
 
 function Root () {
   return (
@@ -15,6 +18,7 @@ function Root () {
             <Route index element={<FrontPage />} />
             <Route path="reviews" element={<Reviews />} />
             <Route path="workout" element={<Workout />} />
+            {/* <Route path="gyms" element={<Map />} /> */}
             { /* <Route path="*" element={<NoPage />} /> */ }
           </Route>
       </Routes>
