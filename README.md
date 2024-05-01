@@ -20,4 +20,3 @@ StayToned harnesses the power of artificial intelligence to educate users on the
 Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
 
 ![phillyhacks](https://github.com/ihab-elrayah/StayToned/assets/127975319/da330a39-f1cb-4b00-95a9-2b832ab8727a)
-![phillyhackss](https://github.com/ihab-elrayah/StayToned/assets/127975319/dcedcf5c-8f28-42f4-b84b-5715455ea351)
